@@ -1,5 +1,6 @@
 <!DOCETYPE html>
 <body>
+<div>
 for(var i=0, i<16, i++){
 for(var j=0, j<16, j++){
 var div=document.createElement('div');
@@ -11,5 +12,6 @@ var jump=document.createElement('br');
 document.getElementById('container').appenChild(jump);
 document.getElementById('container').appenChild(div);
 }
+</div>
 </body>
 </html>
