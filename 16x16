@@ -2,8 +2,8 @@
 <html>
 <body>
 <div>
-for(var i=0, i<16, i++){
-for(var j=0, j<16, j++){
+for(var i=0; i<16; i++){
+for(var j=0; j<16; j++){
 var div=document.createElement('div');
 div.style.width='25px';
 div.style.height='25px';
@@ -15,4 +15,8 @@ document.getElementById('container').appenChild(div);
 }
 </div>
 </body>
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script> 
 </html>
