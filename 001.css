@@ -1,0 +1,18 @@
+#block1 {
+    width: 25px;
+    height: 25px;
+    background: red;
+    float: left;
+    border: 5px solid;
+    clear: both;
+}
+ 
+#block2 {
+    width: 25px;
+    height: 25px;
+    background: red;
+    float: left;
+    border: 5px solid;
+    clear: both;
+    margin: 0px 0px 0px 30px;
+}
